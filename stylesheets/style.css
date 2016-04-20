@@ -1,0 +1,27 @@
+body {
+  background: #272324;
+  padding: 50px;
+   background-image: url("/images/pattern.png");
+   background-repeat: repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 5em;
+}
+
+h2 {
+  text-align: center;
+  color: #E5E5E5;
+}
+
+p {
+  text-align: center;
+  color: #C9C9C9;
+}
