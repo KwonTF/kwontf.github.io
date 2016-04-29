@@ -53,6 +53,7 @@ a.tooltip {
   border-radius: 55px;
   background: #fff no-repeat center;
   background-size: cover;
+  left: 50%;
 }
 .gallery-nav li{
   position: relative;
