@@ -34,13 +34,13 @@ h2 {
 }
 .paragraph {
   position: relative;
-  bottom: 20em;
+  bottom: 40em;
   text-align: center;
   color: #C9C9C9;
 }
 .gallery-nav{
   position: relative;
-  bottom: 20em;
+  bottom: 40em;
 }
 
 a.tooltip {
@@ -53,8 +53,7 @@ a.tooltip {
   background: #fff no-repeat center;
   background-size: cover;
 }
-
-.gallary-nav li{
+.gallery-nav li{
   float: left;
   margin-right: 100px;
 }
