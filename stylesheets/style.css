@@ -40,7 +40,7 @@ h2 {
 }
 .gallery-nav{
   position: relative;
-  bottom: 40em;
+  bottom: 30em;
   align-items: center;
   border: 5px solid #4b4b4b;
 }
@@ -78,4 +78,6 @@ a.tooltip .tooltip-box{
 .tooltip-info{
   color: #FFFFFF;
   font-weight: 200;
+  font-size: 5em;
+  text-align: center;
 }
