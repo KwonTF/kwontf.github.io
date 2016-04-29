@@ -15,7 +15,6 @@ h1 {
   font-weight: 300;
   font-size: 5em;
   position: static;
-  
 }
 
 h2 {
@@ -41,6 +40,8 @@ h2 {
 .gallery-nav{
   position: relative;
   bottom: 30em;
+  text-align: center;
+  ruby-align: center;
   align-content: center;
   align-self: center;
   align-items: center;
@@ -84,9 +85,9 @@ a.tooltip .tooltip-box{
 }
 
 .copy{
+  text-align: center;
   position: relative;
   bottom: 30em;
   color: #C9C9C9;
   font-size: 1.3em;
-  text-align: center;
 }
