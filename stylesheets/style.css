@@ -50,12 +50,15 @@ a.tooltip {
   border: 5px solid #4b4b4b;
   background: #fff no-repeat center;
   border-radius: 55px;
+  background: #fff no-repeat center;
+  background-size: cover;
 }
 
 .gallary-nav li{
   float: left;
   margin-right: 100px;
 }
+
 
 a.tooltip.photo1{
   background-image: url("/images/KPN1.png");
@@ -65,4 +68,8 @@ a.tooltip.photo2{
 }
 a.tooltip.photo3{
   background-image: url("/images/KPN3.png");
+}
+
+a.tooltip .tooltip-box{
+  opacity: 0;
 }
