@@ -29,11 +29,16 @@ h2 {
   position: relative;
   bottom: 2.47em;
   font-size: 10em;
-  color: #FFFFFF; 
+  color: #FFFFFF;
+  text-align: center;
 }
 .paragraph {
   position: relative;
   bottom: 20em;
   text-align: center;
   color: #C9C9C9;
+}
+.gallary-nav{
+  position: relative;
+  bottom: 20em;
 }
