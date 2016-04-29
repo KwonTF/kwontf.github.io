@@ -32,6 +32,8 @@ h2 {
   color: #FFFFFF; 
 }
 p {
+  position: relative;
+  bottom: 10em;
   text-align: center;
   color: #C9C9C9;
 }
