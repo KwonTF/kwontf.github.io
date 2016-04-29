@@ -14,16 +14,22 @@ h1 {
   color: #FFFFFF;
   font-weight: 300;
   font-size: 5em;
-  margin-bottom: 0px;
-  
+  position: static;
 }
 
 h2 {
-  margin-top: 0px;
+  position: relative;
+  bottom: 2em;
+  font-size: 2em;
   text-align: center;
   color: #E5E5E5;
 }
-
+.titlebox{
+  position: relative;
+  bottom: 2.57em;
+  font-size: 10em;
+  color: #FFFFFF; 
+}
 p {
   text-align: center;
   color: #C9C9C9;
