@@ -86,4 +86,7 @@ a.tooltip .tooltip-box{
 .copy{
   position: relative;
   bottom: 30em;
+  color: #C9C9C9;
+  font-size: 1.3em;
+  text-align: center;
 }
