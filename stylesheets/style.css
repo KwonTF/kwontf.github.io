@@ -78,11 +78,12 @@ a.tooltip .tooltip-box{
   opacity: 0;
 }
 
-.tooltip-info{
+.tooltip.info{
   color: #FFFFFF;
   font-weight: 200;
   font-size: 1.5em;
   text-align: center;
+  left: 50%;
 }
 
 h4{
