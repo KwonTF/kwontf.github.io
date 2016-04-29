@@ -53,7 +53,7 @@ a.tooltip {
   border-radius: 55px;
   background: #fff no-repeat center;
   background-size: cover;
-  position: relative;
+  position: absolute;
   left: 25%;
 }
 .gallery-nav li{
@@ -80,7 +80,7 @@ a.tooltip .tooltip-box{
 }
 
 .tooltip.info{
-  position: relative;
+  position: absolute;
   color: #FFFFFF;
   font-weight: 200;
   font-size: 1.5em;
@@ -90,7 +90,7 @@ a.tooltip .tooltip-box{
 
 h4{
   text-align: center;
-  position: relative;
+  position: absolute;
   color: #C9C9C9;
   font-size: 1.3em;
   position: relative;
