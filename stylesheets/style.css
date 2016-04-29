@@ -44,6 +44,13 @@ h2 {
   float: right;
 }
 
+.gallery-info-nav{
+  position: relative;
+  bottom: 30em;
+  left: -50%;
+  float: right;
+}
+
 a.tooltip {
   display: block;
   width: 100px;
@@ -54,7 +61,7 @@ a.tooltip {
   background: #fff no-repeat center;
   background-size: cover;
 }
-.gallery-nav li{
+.gallery-info-nav li{
   position: relative;
   left: 50%;
   float: left;
@@ -62,7 +69,13 @@ a.tooltip {
   margin-left : 50px;
 }
 
-
+.gallery-nav li{
+  position: relative;
+  left: 50%;
+  float: left;
+  margin-right: 50px;
+  margin-left : 50px;
+}
 a.tooltip.photo1{
   background-image: url("/images/KPN1.png");
 }
