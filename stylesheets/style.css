@@ -44,13 +44,6 @@ h2 {
   float: right;
 }
 
-.gallery-info-nav{
-  position: relative;
-  bottom: 30em;
-  left: -50%;
-  float: right;
-}
-
 a.tooltip {
   display: block;
   width: 100px;
@@ -61,14 +54,6 @@ a.tooltip {
   background: #fff no-repeat center;
   background-size: cover;
 }
-.gallery-info-nav li{
-  position: relative;
-  left: 50%;
-  float: left;
-  margin-right: 50px;
-  margin-left : 50px;
-}
-
 .gallery-nav li{
   position: relative;
   left: 50%;
@@ -99,9 +84,6 @@ a.tooltip .tooltip-box{
 
 h4{
   text-align: center;
-  position: relative;
   color: #C9C9C9;
   font-size: 1.3em;
-  position: relative;
-  left: 50%;
 }
