@@ -31,7 +31,7 @@ h2 {
   font-size: 10em;
   color: #FFFFFF; 
 }
-#paragraph {
+.paragraph {
   position: relative;
   bottom: 20em;
   text-align: center;
