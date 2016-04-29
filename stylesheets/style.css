@@ -84,10 +84,10 @@ a.tooltip .tooltip-box{
 
 h4{
   position: relative;
-  bottom: 30em;
-  left: -50%;
+  bottom: 8em;
+  left: 3.5em;
   float: right;
-  text-align: center;
+  text-align: right;
   color: #C9C9C9;
   font-size: 1.3em;
 }
