@@ -14,10 +14,10 @@ h1 {
   color: #FFFFFF;
   font-weight: 300;
   font-size: 5em;
-  padding-top: 2em;
 }
 
 h2 {
+  margin-top: 0em;
   text-align: center;
   color: #E5E5E5;
 }
