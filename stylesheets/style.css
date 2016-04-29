@@ -42,7 +42,6 @@ h2 {
   position: relative;
   bottom: 30em;
   align-items: center;
-  border: 5px solid #4b4b4b;
 }
 
 a.tooltip {
@@ -78,6 +77,6 @@ a.tooltip .tooltip-box{
 .tooltip-info{
   color: #FFFFFF;
   font-weight: 200;
-  font-size: 5em;
+  font-size: 1.5em;
   text-align: center;
 }
