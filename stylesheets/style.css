@@ -31,9 +31,9 @@ h2 {
   font-size: 10em;
   color: #FFFFFF; 
 }
-p {
+#paragraph {
   position: relative;
-  bottom: 10em;
+  bottom: 20em;
   text-align: center;
   color: #C9C9C9;
 }
