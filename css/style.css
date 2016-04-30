@@ -13,13 +13,13 @@ a {
   color: #00B7FF;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 /*
   partial style
 */
-
-body {
-  min-width: 300px;
-}
 
 header {
   margin: 10px auto;
@@ -46,7 +46,6 @@ header div.title-left, header div.title-right {
   width: 20px;
   height: 100%;
   top: 0;
-  box-sizing: border-box;
   border-style: solid;
   border-color: #C9C9C9;
 }
@@ -76,7 +75,6 @@ div.column {
   width:33.3%;
   float: left;
   padding: 10 auto;
-  box-sizing: border-box;
   text-align: center;
 }
 
@@ -88,7 +86,6 @@ div.column img {
 }
 
 div.tooltip {
-  box-sizing: border-box;
   background-color: rgba(0,183,255,0.7);
   width: 300px;
   padding: 10px;
@@ -117,6 +114,14 @@ footer p{
   mobile style
 */
 @media(max-width: 768px) {
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+  }
+  
   div.container {
     margin: 30px auto;
   }
