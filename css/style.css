@@ -98,7 +98,15 @@ div.tooltip {
   position: absolute;
   z-index: 1;
 }
-
+div.tooltip::before {
+  content: ' ';
+  position: absolute;
+  bottom: -10px;
+  left: 120px;
+  border-top: 10px solid #111;
+  border-left: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
 div.tooltip a {
   color: #C9C9C9;
   text-decoration: none;
