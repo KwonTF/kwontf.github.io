@@ -101,9 +101,9 @@ div.tooltip {
 div.tooltip::before {
   content: ' ';
   position: absolute;
-  bottom: -10px;
-  left: 150px;
-  border-top: 20px solid #111;
+  top: -10px;
+  left: 130px;
+  border-bottom: 20px solid #111;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 }
