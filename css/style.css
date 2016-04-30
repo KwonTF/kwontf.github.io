@@ -116,7 +116,7 @@ div.tooltip a {
   text-decoration: none;
 }
 
-div.column:hover .tooltip
+div.column:hover .tooltip,
 div.column:focus .tooltip{
   opacity: 1;
   bottom: 90px;
