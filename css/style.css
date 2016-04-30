@@ -130,7 +130,7 @@ div.column:focus p.tooltip-word{
 }
 div.column:hover img,
 div.column:focus img{
-  transform: rotate(180);
+  transform: rotate(180deg);
 }
 /*div.tooltip-hidden {
   display: none;
