@@ -102,10 +102,10 @@ div.tooltip::before {
   content: ' ';
   position: absolute;
   bottom: -10px;
-  left: 120px;
-  border-top: 10px solid #111;
-  border-left: 10px solid transparent;
-  border-left: 10px solid transparent;
+  left: 150px;
+  border-top: 20px solid #111;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
 }
 div.tooltip a {
   color: #C9C9C9;
