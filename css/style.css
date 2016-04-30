@@ -83,14 +83,14 @@ div.column img {
   height: 100px;
   border-radius: 50px;
   position: relative;
-  border: 3px solid #4b4b4b;
+  border: 5px solid #4b4b4b;
 }
 
 div.tooltip {
   background-color: #111;
   width: 300px;
   padding: 10px;
-  border-radius: 15px 0px;
+  border-radius: 25px 0px;
   margin: 10px 0 10px -25px;
   position: absolute;
   z-index: 1;
