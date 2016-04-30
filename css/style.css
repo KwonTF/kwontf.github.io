@@ -94,14 +94,13 @@ div.tooltip {
   padding: 10px;
   border-radius: 25px 0px;
   margin: 10px 0 10px -25px;
-  margin-top: -60px;
+  margin-top:0px;
   position: absolute;
   z-index: 1;
   opacity: 0;
   -webkit-transition: all 0.5s ease-out 0.1s;
   -moz-transition: all 0.5s ease-out 0.1s;
   transition: all 0.5s ease-out 0.1s;
-  bottom: calc(auto - 10px);
 }
 div.tooltip::before {
   content: ' ';
@@ -120,11 +119,11 @@ div.tooltip a {
 div.column:hover .tooltip,
 div.column:focus .tooltip{
   opacity: 1;
+  margin-top: -60px;
   -webkit-transition: all 0.5s ease-out 0.1s;
   -moz-transition: all 0.5s ease-out 0.1s;
   transition: all 0.5s ease-out 0.1s;
-  bottom: auto;
-}
+  }
 /*div.tooltip-hidden {
   display: none;
 }*/
