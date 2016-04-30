@@ -10,6 +10,7 @@ body {
 }
 
 a {
+  text-decoration: none;
   color: #00B7FF;
 }
 
@@ -68,6 +69,7 @@ div.content p {
 
 div.container {
   margin: 200px auto;
+  margin-top: -50px;
   max-width: 760px;
 }
 
@@ -92,6 +94,7 @@ div.tooltip {
   padding: 10px;
   border-radius: 25px 0px;
   margin: 10px 0 10px -25px;
+  margin-top: -60px;
   position: absolute;
   z-index: 1;
 }
