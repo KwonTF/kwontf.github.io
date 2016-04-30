@@ -123,9 +123,13 @@ div.column:hover .tooltip,
 div.column:focus .tooltip{
   opacity: 1;
   transform: translateY(-60px);
-  }
-div.column:hover div.column img,
-div.column:focus div.column img{
+}
+div.column:hover p.tooltip-word,
+div.column:focus p.tooltip-word{
+  opacity: 0;
+}
+div.column:hover img,
+div.column:focus img{
   transform: rotate(180);
 }
 /*div.tooltip-hidden {
@@ -136,6 +140,9 @@ p.tooltip-word{
   text-decoration: none;
   font-size: 1.5em;
   color: #E5E5E5;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 footer p{
   text-align: center;
