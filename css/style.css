@@ -97,6 +97,10 @@ div.tooltip {
   margin-top: -60px;
   position: absolute;
   z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out 0.1s;
+  -moz-transition: all 0.5s ease-out 0.1s;
+  transition: all 0.5s ease-out 0.1s;
 }
 div.tooltip::before {
   content: ' ';
@@ -112,9 +116,17 @@ div.tooltip a {
   text-decoration: none;
 }
 
-div.tooltip-hidden {
-  display: none;
+div.column:hover .tooltip
+div.column:focus .tooltip{
+  opacity: 1;
+  bottom: 90px;
+  -webkit-transition: all 0.5s ease-out 0.1s;
+  -moz-transition: all 0.5s ease-out 0.1s;
+  transition: all 0.5s ease-out 0.1s;
 }
+/*div.tooltip-hidden {
+  display: none;
+}*/
 
 p.tooltip-word{
   text-decoration: none;
