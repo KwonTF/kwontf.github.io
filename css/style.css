@@ -1,0 +1,153 @@
+/*
+  global style
+*/
+
+body {
+  background: #272324;
+  padding: 50px;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*
+  partial style
+*/
+
+header {
+  margin: 10px inherit;
+  position: relative;
+}
+
+header h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 5em;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #E5E5E5;
+  margin: 0;
+}
+
+header div.title-left, header div.title-right {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  top: 0;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #C9C9C9;
+}
+
+header div.title-left {
+  left: 0;
+  border-width: 5px 0 5px 5px;
+}
+
+header div.title-right {
+  right: 0;
+  border-width: 5px 5px 5px 0;
+}
+
+div.content p {
+  text-align: center;
+  color: #C9C9C9;
+  margin: 100px inherit;
+}
+
+div.container {
+  margin: 200px inherit;
+}
+
+div.column {
+  width:33.3%;
+  float: left;
+  padding: 10 inherit;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.column img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: relative;
+}
+
+div.tooltip {
+  box-sizing: border-box;
+  background-color: rgba(0,183,255,0.7);
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px auto;
+  position: absolute;
+  z-index: 1;
+  margin-left: 150px;
+}
+
+div.tooltip a {
+  color: #C9C9C9;
+  text-decoration: none;
+}
+
+div.tooltip-hidden {
+  display: none;
+}
+
+footer p{
+  text-align: right;
+  color: #C9C9C9;
+  font-size: 1.3em;
+}
+
+/*
+  mobile style
+*/
+@media(max-width: 768px) {
+  div.container {
+    margin: 30px inherit;
+  }
+  
+  div.column {
+    width:100%;
+    float: none;
+    margin: 100px 0;
+    text-align: left;
+  }
+  
+  div.column:first-child {
+    margin-top: 0;
+  }
+  
+  div.tooltip {
+    background-color: transparent;
+    position: relative;
+    margin: 0;
+  }
+  
+  div.tooltip-hidden {
+    display: block;
+  }
+  
+  div.tooltip a {
+    text-decoration: underline;
+  }
+}
+
+/*
+  utility
+*/
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
