@@ -1,48 +1,84 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Kwon Practical Series</title>
     <script src="https://use.typekit.net/nwe8gse.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/jquery.js"></script>
   </head>
   <body class="tk-industry">
-    <h1>Kwon Practical Series</h1>
-    <h2>Personal Homepage</h2>
-    <p class="titlebox">[&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp]</p>
-    <p class="paragraph">Movement of frame, Exquisite of pixel. Now on Kwon Practical Series This site is personal homaepage of Kwon Tae-Hyung.</br>
-    Copyrights of secondary production is on Kwon. But if you need any inquiry please contact email, telegram, or kakao messenger address, which is bottom of this website. </br>
-    I will reply as soon as I can. Seriosly I'm going to write this paragraph with at least five sentence but there is nothing to write on it. </br>
-    I think this paragraph is very cool, Don't you? Well, I think so.</p>
-    <ul class="gallery-nav">
-      <li>
-        <a class="tooltip photo1" href=" https://youtu.be/o38b6HQRhmw?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
-          <div class="tooltip-box">
-            <h4 class="tooltip-title">Practical One</h4>
-            <p class="tooltip-desc"> Composed by imp</br> Visualized by Peena</br> Arranged By KwonTF</br> At 2015</p>
-          </div>
+    <header class="clearfix">
+      <div class="title">
+        <h1>Kwon Practical Series</h1>
+        <h2>Personal Homepage</h2>
+      </div>
+      <div class="title-left"></div>
+      <div class="title-right"></div>
+    </header>
+    <div class="content">
+      <p>
+        Movement of frame, Exquisite of pixel. Now on Kwon Practical Series This site is personal homaepage of Kwon Tae-Hyung.</br>
+        Copyrights of secondary production is on Kwon. But if you need any inquiry please contact email, telegram, or kakao messenger address, which is bottom of this website. </br>
+        I will reply as soon as I can. Seriosly I'm going to write this paragraph with at least five sentence but there is nothing to write on it. </br>
+        I think this paragraph is very cool, Don't you? Well, I think so.
+      </p>
+    </div>
+    <div class="container clearfix">
+      <div  class="column">
+        <a href="https://youtu.be/o38b6HQRhmw?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
+          <img src="./img/KPN1.png" alt="Practical One" data-tooltip-target="1">
         </a>
-
-      </li>
-        <li>
-        <a class="tooltip photo2" href=" https://youtu.be/__ZwAaIUWok?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
-          <div class="tooltip-box">
-            <h4 class="tooltip-title">Practical Two</h4>
-            <p class="tooltip-desc"> Composed by Daniel Powter</br>Theme by A lie(deep inside mix)</br> Arranged By KwonTF</br> At 2015- 2016</p>
-          </div>
+        <div class="tooltip tooltip-hidden" data-tooltip-id="1">
+          <a href="https://youtu.be/o38b6HQRhmw?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
+            <h4>Practical One</h4>
+            <p> Composed by imp</br> Visualized by Peena</br> Arranged By KwonTF</br> At 2015</p>
+          </a>
+        </div>
+      </div>
+      <div class="column">
+        <a href="https://youtu.be/__ZwAaIUWok?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
+          <img src="./img/KPN2.png" alt="Practical Two" data-tooltip-target="2">
         </a>
-
-      </li>
-        <li>
-        <a class="tooltip photo3" href=" https://youtu.be/5PtLxJGgcMg?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
-          <div class="tooltip-box">
-            <h4 class="tooltip-title">Practical Three</h4>
-            <p class="tooltip-desc"> Composed by Lunatic Sounds</br> Visualized by Peena</br> Arranged By KwonTF</br> At 2016</p>
-          </div>
+        <div class="tooltip tooltip-hidden" data-tooltip-id="2">
+          <a href="https://youtu.be/__ZwAaIUWok?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
+            <h4>Practical Two</h4>
+            <p> Composed by Daniel Powter</br>Theme by A lie(deep inside mix)</br> Arranged By KwonTF</br> At 2015- 2016</p>
+          </a>
+        </div>
+      </div>
+      <div class="column">
+        <a href="https://youtu.be/5PtLxJGgcMg?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
+          <img src="./img/KPN3.png" alt="Practical Three" data-tooltip-target="3">
         </a>
-        
-      </li>
-    </ul>
-  <h4>Copyrights Kwon Tae Hyung 2015 - 2016 all rights reserved</h4>
+        <div class="tooltip tooltip-hidden" data-tooltip-id="3">
+          <a href="https://youtu.be/5PtLxJGgcMg?list=PLlr3S4yy0_u46PwyLRMDuyfZgCUghbijD">
+          <h4>Practical Three</h4>
+          <p> Composed by Lunatic Sounds</br> Visualized by Peena</br> Arranged By KwonTF</br> At 2016</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; Kwon Tae Hyung 2015 - 2016 all rights reserved</p>
+    </footer>
+    <script>
+      $(".column img").hover(function() {
+        var target = $(this).data("tooltip-target");
+        $(".tooltip").each(function() {
+          if($(this).data("tooltip-id") == target) {
+            $(this).removeClass("tooltip-hidden");
+          }
+        });
+      }, function() {
+        var target = $(this).data("tooltip-target");
+        $(".tooltip").each(function() {
+          if($(this).data("tooltip-id") == target) {
+            $(this).addClass("tooltip-hidden");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
