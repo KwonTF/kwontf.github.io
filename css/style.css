@@ -86,6 +86,9 @@ div.column img {
   border-radius: 50px;
   position: relative;
   border: 5px solid #4b4b4b;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 div.tooltip {
@@ -94,13 +97,13 @@ div.tooltip {
   padding: 10px;
   border-radius: 25px 0px;
   margin: 10px 0 10px -25px;
-  margin-top: -60px;
+  margin-top: -0px;
   position: absolute;
   z-index: 1;
   opacity: 0;
-  -webkit-transition: all 0.5s ease-out 0.1s;
-  -moz-transition: all 0.5s ease-out 0.1s;
-  transition: all 0.5s ease-out 0.1s;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 div.tooltip::before {
   content: ' ';
@@ -119,10 +122,12 @@ div.tooltip a {
 div.column:hover .tooltip,
 div.column:focus .tooltip{
   opacity: 1;
-  -webkit-transition: all 0.5s ease-out 0.1s;
-  -moz-transition: all 0.5s ease-out 0.1s;
-  transition: all 0.5s ease-out 0.1s;
+  transform: translateY(-60px);
   }
+div.column:hover div.column img,
+div.column:focus div.column img{
+  transform: rotate(180);
+}
 /*div.tooltip-hidden {
   display: none;
 }*/
