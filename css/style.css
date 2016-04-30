@@ -101,6 +101,7 @@ div.tooltip {
   -webkit-transition: all 0.5s ease-out 0.1s;
   -moz-transition: all 0.5s ease-out 0.1s;
   transition: all 0.5s ease-out 0.1s;
+  bottom: 90px;
 }
 div.tooltip::before {
   content: ' ';
@@ -118,8 +119,8 @@ div.tooltip a {
 
 div.column:hover .tooltip,
 div.column:focus .tooltip{
+  bottom: 0px;
   opacity: 1;
-  bottom: 90px;
   -webkit-transition: all 0.5s ease-out 0.1s;
   -moz-transition: all 0.5s ease-out 0.1s;
   transition: all 0.5s ease-out 0.1s;
