@@ -18,7 +18,7 @@ a {
 */
 
 header {
-  margin: 10px inherit;
+  margin: 10px auto;
   position: relative;
 }
 
@@ -60,17 +60,18 @@ header div.title-right {
 div.content p {
   text-align: center;
   color: #C9C9C9;
-  margin: 100px inherit;
+  margin: 100px auto;
 }
 
 div.container {
-  margin: 200px inherit;
+  margin: 200px auto;
+  max-width: 760px;
 }
 
 div.column {
   width:33.3%;
   float: left;
-  padding: 10 inherit;
+  padding: 10 auto;
   box-sizing: border-box;
   text-align: center;
 }
@@ -91,7 +92,7 @@ div.tooltip {
   margin: 10px auto;
   position: absolute;
   z-index: 1;
-  margin-left: 150px;
+  margin-left: -30px;
 }
 
 div.tooltip a {
@@ -114,7 +115,7 @@ footer p{
 */
 @media(max-width: 768px) {
   div.container {
-    margin: 30px inherit;
+    margin: 30px auto;
   }
   
   div.column {
