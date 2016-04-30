@@ -105,6 +105,11 @@ div.tooltip-hidden {
   display: none;
 }
 
+div.tooltip-word{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #E5E5E5;
+}
 footer p{
   text-align: center;
   color: #C9C9C9;
