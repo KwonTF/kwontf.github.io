@@ -5,8 +5,8 @@
 body {
   background: #272324;
   padding: 50px;
-  background-image: url("../img/pattern.png");
-  background-repeat: repeat;
+  background-image: url("../img/pattern.png"), url("../img/homepage.gif");
+  background-size: auto, cover;
 }
 
 a {
