@@ -149,7 +149,12 @@ footer p{
   color: #C9C9C9;
   font-size: 1.3em;
 }
-
+#video_intro{
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
 /*
   mobile style
 */
