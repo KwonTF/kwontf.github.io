@@ -150,10 +150,15 @@ footer p{
   font-size: 1.3em;
 }
 #video_intro{
-  width: auto;
-  height: auto;
-  min-width: 100%;
-  min-height: 100%;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1;
+     overflow: hidden;
 }
 /*
   mobile style
