@@ -201,3 +201,13 @@ footer p{
   overflow: auto;
   zoom: 1;
 }
+
+/*
+  Harukasan
+*/
+#harukasan {
+  width: 150px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
