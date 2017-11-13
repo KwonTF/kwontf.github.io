@@ -5,7 +5,7 @@
 body {
   background: #272324;
   padding: 50px;
-  background-image: url("../img/pattern.png"), url("../img/homepage.gif");
+  background-image: url("../img/pattern.png");
   background-size: auto, cover;
   background-position-x: 50%;
   background-position-y: 50%;
